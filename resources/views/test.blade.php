@@ -14,45 +14,47 @@
           <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Other</button>
         </li>
       </ul>
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
             <form>
                 <div class="row mb-3">
-                  <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Student Id</label>
                   <div class="col-sm-10">
-                    <input type="email" class="form-control" id="inputEmail3">
+                    <input type="text" class="form-control" id="inputid">
+                    {{-- <input type="email" class="form-control" id="inputEmail3"> --}}
                   </div>
                 </div>
                 <div class="row mb-3">
-                  <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Student Name</label>
                   <div class="col-sm-10">
-                    <input type="password" class="form-control" id="inputPassword3">
+                    {{-- <input type="password" class="form-control" id="inputPassword3"> --}}
+                    <input type="name" class="form-control" id="inputEmail3">
                   </div>
                 </div>
                 <fieldset class="row mb-3">
-                  <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                  <legend class="col-form-label col-sm-2 pt-0">Sex</legend>
                   <div class="col-sm-10">
                     <div class="form-check">
                       <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
                       <label class="form-check-label" for="gridRadios1">
-                        First radio
+                        male
                       </label>
                     </div>
                     <div class="form-check">
                       <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
                       <label class="form-check-label" for="gridRadios2">
-                        Second radio
+                        female
                       </label>
                     </div>
-                    <div class="form-check disabled">
+                    {{-- <div class="form-check disabled">
                       <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
                       <label class="form-check-label" for="gridRadios3">
                         Third disabled radio
                       </label>
-                    </div>
+                    </div> --}}
                   </div>
                 </fieldset>
                 <div class="row mb-3">
@@ -60,7 +62,7 @@
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" id="gridCheck1">
                       <label class="form-check-label" for="gridCheck1">
-                        Example checkbox
+                        Attendance
                       </label>
                     </div>
                   </div>
@@ -68,6 +70,8 @@
                 <button type="submit" class="btn btn-primary">Sign in</button>
               </form>
         </div>
+
+      {{-- profile-tab   --}}
         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
@@ -108,6 +112,8 @@
                 </div>
               </div>
         </div>
+        
+        {{-- other --}}
         <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
             <div class="alert alert-primary" role="alert">
                 A simple primary alert—check it out!
@@ -131,7 +137,7 @@
                 A simple light alert—check it out!
               </div>
               <div class="alert alert-dark" role="alert">
-               mama meka wenas karanawa magula
+              
               </div>
         </div>
       </div>

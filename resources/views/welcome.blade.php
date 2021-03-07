@@ -96,7 +96,6 @@
                 <dl>
                     <li>Registration</li>
                     <li>Attendance</li>
-                    
                     <li>payement</li>
                     <li>Course</li>
                 </dl>

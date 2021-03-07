@@ -21,6 +21,6 @@ Route ::resource ('students','StudentController');
 // Route ::resource ('course','CourseController');
 // Route ::resource ('payment','PaymentController');
 
-Route::get('bijja', function () {
+Route::get('payment', function () {
     return view('test');
 });
