@@ -15,11 +15,11 @@ class StudentController extends Controller
      */
     public function index()
     {
-        // $students = Student::all();
+        $students = Student::all();
       // return($students);
-        // return view('students.index',compact('students'));
+        return view('students.index',compact('students'));
         // return view('student.index');
-        return view('students.create');
+        // return view('students.create');
     }
 
     /**
@@ -29,9 +29,9 @@ class StudentController extends Controller
      */
     public function create()
     {
-        // return view('students.create');
-        $students = Student::all();
-        return view('students.index',compact('students'));
+        return view('students.create');
+        // $students = Student::all();
+        // return view('students.index',compact('students'));
     }
 
     /**
