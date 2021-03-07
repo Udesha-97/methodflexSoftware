@@ -131,7 +131,7 @@
                 A simple light alert—check it out!
               </div>
               <div class="alert alert-dark" role="alert">
-                A simple dark alert—check it out!
+               mama meka wenas karanawa magula
               </div>
         </div>
       </div>
